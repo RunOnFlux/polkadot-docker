@@ -16,5 +16,5 @@ RUN mkdir /chaindata
 
 EXPOSE 30333 9933 9944
 
-ENTRYPOINT ["/runpolkadot.sh"]
+RUN /runpolkadot.sh
 CMD ["", ""]
