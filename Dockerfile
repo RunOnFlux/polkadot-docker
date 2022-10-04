@@ -1,6 +1,6 @@
 FROM debian:buster-slim
 WORKDIR /polkadot
-ARG VERSION=v0.9.3
+ARG VERSION=v0.9.29
 
 RUN apt-get update \
     && apt-get install -y wget \
